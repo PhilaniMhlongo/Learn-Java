@@ -10,7 +10,7 @@ DOCSDIR=docs
 $(BINDIR)/%.class:$(SRCDIR)/%.java
 	$(JAVAC) -d $(BINDIR)/ -cp $(BINDIR) $<
 
-CLASSES=
+CLASSES= InsufficiebtFundsExceptions.class Amount.class Account.class Transaction.class Main.class
 
 CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
 
