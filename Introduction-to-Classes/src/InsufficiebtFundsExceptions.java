@@ -1,18 +1,18 @@
-class InsufficientFundsExceptions extends Exceptions
+class InsufficiebtFundsExceptions extends Exception
 {
-   public InsufficientFundsException() {
+   public InsufficiebtFundsExceptions() {
         super("Insufficient funds for the transaction.");
     }
 
-    public InsufficientFundsException(String message) {
+    public InsufficiebtFundsExceptions(String message) {
         super(message);
     }
 
-    public InsufficientFundsException(String message, Throwable cause) {
+    public InsufficiebtFundsExceptions(String message, Throwable cause) {
         super(message, cause);
     }
 
-    public InsufficientFundsException(Throwable cause) {
+    public InsufficiebtFundsExceptions(Throwable cause) {
         super("Insufficient funds for the transaction.", cause);
     }
 }

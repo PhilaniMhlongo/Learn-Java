@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 class Main
 {
 
@@ -13,14 +14,14 @@ class Main
             Transaction.transferMoney(account1, account2, new Amount(new BigDecimal("200.00")));
             System.out.println("Money transferred successfully!");
         } 
-        catch (InsufficientFundsException e) 
+        catch (InsufficiebtFundsExceptions e) 
         {
             System.out.println("Insufficient funds for the transfer.");
         }
 
         // Display account balances
-        System.out.println("Account 1 balance: $" + account1.getBalance().getAmount());
-        System.out.println("Account 2 balance: $" + account2.getBalance().getAmount());
+        System.out.println("Account 1 balance: R" + account1.getBalance().getAmount());
+        System.out.println("Account 2 balance: R" + account2.getBalance().getAmount());
     }
 }
 

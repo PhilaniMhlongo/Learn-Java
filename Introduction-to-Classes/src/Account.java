@@ -20,19 +20,19 @@ class Account
 		return balance;
 	}
 
-	public synchronized void debit(Amount money) throws InsufficientFundsExeptions
+	public synchronized void debit(Amount money) throws InsufficiebtFundsExceptions
 	{
 		if (balance.getAmount().compareTo(money.getAmount()) <0)
 		{
-			throw new InsufficientFundsException();
+			throw new InsufficiebtFundsExceptions();
 		}
 
-		balance =new Amount(balance.getAmount().subtract(amount.getAmount()));
+		balance =new Amount(balance.getAmount().subtract(money.getAmount()));
 	}
 
-	public synchronized void credit(Amount amount)
+	public synchronized void credit(Amount money)
 	{
-		balance = new Amount(balance.getAmount().add(amount.getAmount()));
+		balance = new Amount(balance.getAmount().add(money.getAmount()));
 	}
 
 }

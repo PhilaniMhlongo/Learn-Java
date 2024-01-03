@@ -1,7 +1,7 @@
 class Transaction 
 {
 	public static void transferMoney(Account fromAccount, Account toAccount, Amount amount)
-            throws InsufficientFundsException 
+            throws InsufficiebtFundsExceptions 
             {
         synchronized (fromAccount) 
         {
@@ -9,7 +9,7 @@ class Transaction
             {
                 if (fromAccount.getBalance().getAmount().compareTo(amount.getAmount()) < 0) 
                 {
-                    throw new InsufficientFundsException();
+                    throw new InsufficiebtFundsExceptions();
                 } 
                 else 
                 {
