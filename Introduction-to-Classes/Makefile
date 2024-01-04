@@ -16,10 +16,9 @@ CLASSES= Amount.class InsufficiebtFundsExceptions.class Account.class Transactio
 CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
 
 default: $(CLASS_FILES)
-
-docs:
-	javadoc -cp $(BINDIR) -d /docs/ /src/*.java
-	
+.PHONY: docs
+docs: $(CLASS_FILES)
+	javadoc -cp /home/philani/Github/Learn-Java/Introduction-to-Classes/bin/ -d /home/philani/Github/Learn-Java/Introduction-to-Classes/docs/ /home/philani/Github/Learn-Java/Introduction-to-Classes/src/*.java
 clean:
 	rm $(BINDIR)/*.class
 	

@@ -1,7 +1,14 @@
 import java.math.BigDecimal;
-class Main
+/**
+ * Main class demonstrating a simple money transfer scenario using accounts and transactions.
+ */
+public class Main
 {
-
+    /**
+ * The main method of the application.
+ *
+ * @param args The command-line arguments.
+ */
 	public static void main(String[] args) 
 	{
         // Create accounts
