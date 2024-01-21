@@ -1,5 +1,6 @@
 /**
  * Exception thrown when there are insufficient funds for a transaction.
+ * @author Philani Mhlongo
  */
 
 public class InsufficiebtFundsExceptions extends Exception

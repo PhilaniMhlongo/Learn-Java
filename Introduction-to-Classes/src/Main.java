@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 /**
  * Main class demonstrating a simple money transfer scenario using accounts and transactions.
+ * @author Philani Mhlongo
  */
 public class Main
 {
@@ -18,7 +19,7 @@ public class Main
         // Perform a money transfer
         try 
         {
-            Transaction.transferMoney(account1, account2, new Amount(new BigDecimal("200.00")));
+            Transaction.transferMoney(account1, account2, new Amount(new BigDecimal("600.00")));
             System.out.println("Money transferred successfully!");
         } 
         catch (InsufficiebtFundsExceptions e) 

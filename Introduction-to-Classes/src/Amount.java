@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 /**
  * Represents a monetary amount using a BigDecimal.
+ * @author Philani Mhlongo
  */
 public class Amount
 {

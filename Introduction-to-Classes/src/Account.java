@@ -1,5 +1,6 @@
 /**
  * Represents a bank account with an account number and balance.
+ * @author Philani Mhlongo
  */
 public class Account
 {

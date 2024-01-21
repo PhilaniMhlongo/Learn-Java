@@ -1,5 +1,6 @@
 /**
  * Represents a transaction for transferring money between two accounts.
+ * @author Philani Mhlongo
  */
 
 public class Transaction 
