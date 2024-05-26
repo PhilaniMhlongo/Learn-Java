@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scenes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/algorithms/dp/examples/scenes/scenes.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
